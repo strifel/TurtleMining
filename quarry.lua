@@ -55,6 +55,7 @@ while not turtle.detectDown() do
             turtle.select(s)
             turtle.drop()
         end
+        turtle.select(1)
         turtle.dig()
     end
 
